@@ -1,5 +1,5 @@
 body{
-    background-image: url("фото/Academy.webp");
+    background-image: url("./Academy.webp");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -30,7 +30,7 @@ h1{
     margin: 10px;
     padding: 10px;
 
-    background-image: url("фото/Kakashi_Hatake.webp");
+    background-image: url("./Kakashi_Hatake.webp");
     background-size: cover;
     background-position: center;
 
@@ -38,7 +38,7 @@ h1{
 }
 
 .naruto{
-    background-image: url("фото/Naruto_Uzumaki21.webp");
+    background-image: url("./Naruto_Uzumaki21.webp");
     background-size: cover;
     background-position: center;
 }
