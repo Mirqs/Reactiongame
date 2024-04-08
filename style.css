@@ -1,0 +1,93 @@
+body{
+    background-image: url("фото/Academy.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    align-self: top;
+    position: absolute;
+    font-size: 50px;
+}
+
+#gamezone{
+    border: solid 1px black;
+    background-color: rgb(89, 89, 238);
+    height: 350px;
+    width: 650px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.character{
+    width: 120px;
+    background-color: orange;
+    float: left;
+    height: 120px;
+    margin: 10px;
+    padding: 10px;
+
+    background-image: url("фото/Kakashi_Hatake.webp");
+    background-size: cover;
+    background-position: center;
+
+    display: none;
+}
+
+.naruto{
+    background-image: url("фото/Naruto_Uzumaki21.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.character:hover{
+    scale: 1.1;
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+#btn{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    margin-top: 150px;
+    border: solid 3px khaki;
+    background-color: tan;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(91, 144, 244);
+    color: rgb(255, 255, 255);
+    border: solid 3px lightblue;
+}
+
+h2{
+    position: absolute;
+    top: 550px;
+    color: white;
+    font-size: 70px;
+}
+
+#rounds{
+    background-color: rgba(255, 0, 0, 0);
+    margin-left: 20px;
+    width: 150px;
+    height: 350px;
+    margin-top: 200px;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
